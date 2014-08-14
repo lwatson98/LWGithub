@@ -1,6 +1,6 @@
 $(document).ready(function() { 
-	var chances;
-	var combinationList = [0, 0, 0];
+	var chances = 15;
+	var combinationList = [2, 9, 4];
 	var correct = [false, false, false];
 	
 	// http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range
@@ -20,7 +20,6 @@ $(document).ready(function() {
 
 	var restart = function() {
 		// write the scrable function here
-		scramble();
 		chances = 15;
 		$("input").val("");
 		// var first = $("#0").val();

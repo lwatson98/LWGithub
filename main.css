@@ -1,13 +1,39 @@
+@font-face {
+    font-family: marioFont;
+    src: url(SuperMario256.ttf);
+}
 body{
-	background-color: #87cefa;
-	color: white;
+	background-image: url('http://img3.wikia.nocookie.net/__cb20120819225302/nintendo/en/images/8/86/Bob-omb_(MKWii).png');
+	color: red;
 	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 800px;
+	font-family: marioFont;
 }
 
 h1{
-	color: white;
+	color: black;
 	text-align: center;
+	font-size: 40px;
+}
+p{
 	font-size: 30px;
 }
+#chances {
+	font: 80px;
+	color: red;
+}
+#right {
+	font-size: 50px;
+	color: green;
+}
 
-
+.textboxes {
+	width: 80px;
+	height: 80px;
+	font-family: marioFont;
+	font-size: 40px;
+	text-align: center;
+	color: green;
+}
