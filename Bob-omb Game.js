@@ -25,10 +25,8 @@ $(document).ready(function() {
 		// var first = $("#0").val();
 		// console.log("#0 = " + first);
 		correct = [ false, false, false];
-		//$("#combination").text(combinationList.toString());
+		
 
-		// Consider changing the text of the button to say
-		// "Restart Game" after the game starts.
 	};
 	var compare = function(i) {
 		if (Number( $("#" + i).val() ) === combinationList[i]){
